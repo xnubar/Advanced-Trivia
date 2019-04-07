@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia</title>
+    <link rel="shortcut icon" href="./assets/images/favico.png">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Old+Standard+TT" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="trivia">
+
+        <div class="container">
+
+            <div class="question-answer-container">
+                <div class="question col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                    <h2 class="question-header-title">Question <span class="question-header-title-num"></span></h2>
+                    <img src="" alt="" class="question-image">
+                    <p class="question-text"></p>
+                </div>
+                <div class="answer col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h4 class="timer-text">Time Seconds: <span class="timer">30</span></h4>
+                    <h2 class="answer-header-title">Select answer below</h2>
+                    <hr>
+                    <div class="answers">
+                        <div class="variant-container">
+                            <span data-clicked="false" data-hover="false" class="variant">1</span>
+                            <h6 class="variant-text"></h6>
+                        </div>
+                        <div class="variant-container">
+                            <span data-clicked="false" data-hover="false" class="variant">2</span>
+                            <h6 class="variant-text"></h6>
+                        </div>
+                        <div class="variant-container">
+                            <span data-clicked="false" data-hover="false" class="variant">3</span>
+                            <h6 class="variant-text"></h6>
+                        </div>
+                        <div class="variant-container">
+                            <span data-clicked="false" data-hover="false" class="variant">4</span>
+                            <h6 class="variant-text"></h6>
+                        </div>
+
+
+                    </div>
+                    <div class="box">
+                        <button class="button submit-btn"> <a class="button" href="#popup1">Submit</a></button>
+
+                    </div>
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h4 class="result-is-correct"></h4>
+                            <h6 class="description">Correct answer was: <span class="result-text"></span></h6>
+                            <h6 class="time-text">Time Remaining: <span class="time-remaining"></span> Seconds</h6>
+                            <h6 class="score-text">Your total score: <span class="your-total-score">0</span></h6>
+                            <h6 class="correct-answer-subtitle">Correct answers: <span class="correct-answers"></span></h6>
+                            <h6 class="wrong-answer-subtitle">Incorrect answers: <span class="wrong-answers"></span></h6>
+                            <h6 class="unanswered-subtitle">Unanswered: <span class="unanswered"></span></h6>
+                            <button class="start-over"> <a class="button" href="#popup1">Start Over</a></button>
+                            <img src="" alt="" class="result-img">
+                            <a class="close" href="#">&times;</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

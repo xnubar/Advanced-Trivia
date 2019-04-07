@@ -1,0 +1,202 @@
+{
+    "question1": {
+        "text": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+        "answers": [
+            {
+                "Oxygen": false
+            },
+            {
+                "Hydrogen sulphide": true
+            },
+            {
+                "Carbon dioxide": false
+            },
+            {
+                "Nitrogen": false
+            }
+        ],
+        "score": 5,
+        "round": 1,
+        "isAsked": false
+    },
+    "question2": {
+        "text": "Which of the following is a non metal that remains liquid at room temperature?",
+        "answers": [
+            {
+                "Bromine": true
+            },
+            {
+                "Phosphorous": false
+            },
+            {
+                "Chlorine": false
+            },
+            {
+                "Helium": false
+            }
+        ],
+        "score": 5,
+        "round": 1,
+        "isAsked": false
+    },
+    "question3": {
+        "text": "Grand Central Terminal, Park Avenue, New York is the world's",
+        "answers": [
+            {
+                " longest railway station": false
+            },
+            {
+                "smallest railway station": false
+            },
+            {
+                " largest railway station": true
+            },
+            {
+                "None of the above": false
+            }
+        ],
+        "score": 5,
+        "round": 1,
+        "isAsked": false
+    },
+    "question4": {
+        "text": "What is part of a database that holds only one type of information?",
+        "answers": [
+            {
+                "Report": false
+            },
+            {
+                "Field": true
+            },
+            {
+                "Record": false
+            },
+            {
+                "File": false
+            }
+        ],
+        "score": 5,
+        "round": 1,
+        "isAsked": false
+    },
+    "question5": {
+        "text": "\"OS\" computer abbreviation usually means ?",
+        "answers": [
+            {
+                "Order of Significance": false
+            },
+            {
+                "Open Software": false
+            },
+            {
+                "Operating System": true
+            },
+            {
+                "Optical Sensor": false
+            }
+        ],
+        "score": 5,
+        "round": 1,
+        "isAsked": false
+    },
+    "question6": {
+        "text": "\".MOV\" extension refers usually to what kind of file?",
+        "answers": [
+            {
+                "Image file": false
+            },
+            {
+                "Animation/movie file": true
+            },
+            {
+                "Audio file": false
+            },
+            {
+                "MS Office document": false
+            }
+        ],
+        "score": 5,
+        "round": 1,
+        "isAsked": false
+    },
+    "question7": {
+        "text": "Which is a type of Electrically-Erasable Programmable Read-Only Memory?",
+        "answers": [
+            {
+                "FRAM": false
+            },
+            {
+                "Flange": false
+            },
+            {
+                "Fury": false
+            },
+            {
+                "Flash": true
+            }
+        ],
+        "score": 5,
+        "round": 1,
+        "isAsked": false
+    },
+    "question8": {
+        "text": "Who is the father of Geometry?",
+        "answers": [
+            {
+                "Euclid": true
+            },
+            {
+                "Pythagoras": false
+            },
+            {
+                "Aristotle": false
+            },
+            {
+                "Kepler": false
+            }
+        ],
+        "score": 5,
+        "round": 1,
+        "isAsked": false
+    },
+    "question9": {
+        "text": "Grand Central Terminal, Park Avenue, New York is the world's",
+        "answers": [
+            {
+                "Bromine": true
+            },
+            {
+                "Phosphorous": false
+            },
+            {
+                "Chlorine": false
+            },
+            {
+                "Helium": false
+            }
+        ],
+        "score": 5,
+        "round": 1,
+        "isAsked": false
+    },
+    "question10": {
+        "text": "The northern and southern lights, a natural light display int the Earth's sky near the polar regions, usually happens in which two layers of Earth's atmosphere?",
+        "answers": [
+            {
+                "Troposphere and Stratosphere": false
+            },
+            {
+                "Stratosphere and Mesosphere": false
+            },
+            {
+                "Mesosphere and Thermosphere": false
+            },
+            {
+                "Thermosphere and Exosphere": true
+            }
+        ],
+        "score": 5,
+        "round": 1,
+        "isAsked": false
+    }
+}
