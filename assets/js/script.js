@@ -54,7 +54,6 @@ class QuestionService {
 }
 
 
-//                  CLASSES
 
 var userExpected = false;
 var question;
@@ -65,7 +64,6 @@ var timeIndex;
 var questionCount = 1;
 var answerIndex=null;
 var score;
-
 var correctAnswer;
 $(".question-image").attr("src", "./assets/images/favico.png")
 
@@ -242,7 +240,7 @@ function timerDecrement() {
 
     }, 1000)
 }
-var queryUrl = "http://api.giphy.com/v1/gifs/search";
+var queryUrl = "https://api.giphy.com/v1/gifs/search";
 function getGif() {
     correctAnswer = getCorrectAnswer();
     
